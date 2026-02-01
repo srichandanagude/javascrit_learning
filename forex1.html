@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title>For loop</title>
+<style>
+#name{
+    color: blueviolet;
+}
+</style>
+
+</head>
+<body>
+<div id="name"></div>
+<script> 
+// Initialization
+// condtion
+// Increment
+
+let employees = [
+  { name: "Chandana", id: 101, department: "HR", salary: 35000 },
+  { name: "Ravi", id: 102, department: "IT", salary: 55000 },
+  { name: "Sneha", id: 103, department: "Finance", salary: 48000 },
+  { name: "Kiran", id: 104, department: "Support", salary: 40000 }
+];
+
+// Using for loop to display employee details
+for (let i = 0; i < employees.length; i++) {
+  console.log("Employee ID:", employees[i].id);
+  console.log("Name:", employees[i].name);
+  console.log("Department:", employees[i].department);
+  console.log("Salary:", employees[i].salary);
+  console.log("----------------------");
+}
+
+</script>
+</body>
+
+</html>
+
